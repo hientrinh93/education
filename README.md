@@ -1,10 +1,4 @@
-# NYC-TLC-Trips
 
-This repository contains 3 Jupyter notebooks and a streamlit file.
-- tlc1.ipynb attempts to work on a very small subset of the dataset. This includes some machine learning models
-- tlc2.ipynb attempts to work on a very smaller subset of the dataset. This includes some machine learning models
-- group.ipynb works on the entire dataset for Q1 2024 without any ML models
-- streamlit.py, is the backend for the streamlit app (https://nyc-tlc-trips.streamlit.app/)
 
 ## Getting Started
 
