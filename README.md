@@ -11,6 +11,7 @@ python -m venv education
 
 ```bash
 education\Scripts\activate
+```
  
 3. Install the necessary libraries mentioned in requirements below.
 
