@@ -24,7 +24,7 @@ def main():
         st.dataframe(df.head())
 
         # Select columns
-        columns = st.multiselect("Select Columns for Prediction", options=df.columns)
+        columns = st.multiselect("Select Columns for Prediction. Note that the columns should be selected in order", options=df.columns)
         if not columns:
             st.warning("Please select at least one column.")
         else:
@@ -46,7 +46,7 @@ def main():
             
                 # Step 5: Make Predictions
                 predictions['Accuracy'] = selected_model.predict(selected_data)
-                st.write("Predictions:")
+                st.write("Predictions for every ID. Points >= 8 labelled 3, Points>=6.5 labelled 2, Points>=5 labelled 1")
                 st.dataframe(predictions)
 
 if __name__ == "__main__":
